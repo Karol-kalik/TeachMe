@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    min-width: $max-width;
+    width: $min-width;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1{
+    font-size: $base-font-size * 3;
+}

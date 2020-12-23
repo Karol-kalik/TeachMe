@@ -1,6 +1,8 @@
-$body-color: slateblue;
+@import './reset';
+@import './variables';
+@import './typography';
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
-}
+@import './scroller';
+@import './base';
+@import './sections';
+@import './contact'

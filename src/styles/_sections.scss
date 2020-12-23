@@ -1,0 +1,96 @@
+.S--header, .S--information, .S--price, .S--teammates,.S--schoolSubjects,.S--contact{
+    height: 100vh;
+    display: flex;
+
+    .box{
+        position: relative;
+        top:10vh;
+    }
+}
+.S--header{
+    opacity: 0;
+
+    .S--header_nav{
+        position: absolute;
+        top: 10%;
+        transform: translateY(-20%);
+        left: 20%;
+        font-size: $base-font-size *1.5;
+        ul{
+            display: flex;  
+            text-transform: uppercase;
+            color: $color-primary;
+
+            li{
+                margin-left: 2vw;
+                cursor: pointer;
+
+                &:hover{
+                    border-bottom: 2px solid $color-primary;
+                }
+                a{
+                    color: $color-primary
+                }
+            }
+        }
+    }
+    
+}
+.S--header_image{
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 50%;
+}
+.S--header_text{
+    position: relative;
+    top: 40%;
+
+    // line-height: 50%;
+}
+
+.S--information{
+    // display: flex;
+    position: relative;
+    left: 50%;
+    top: 5vh;
+    padding: 5vh 0 0 5vw;
+    transform: translatX(-50%);
+}
+
+.S--price{
+    position: relative;
+    padding: 5vh 0 0 5vw;
+}   
+
+.S--teammates{
+    position: relative;
+    left: 50%;
+    top: 5vh;
+    padding: 5vh 0 0 5vw;
+    transform: translatX(-50%);
+}
+.S--schoolSubjects{
+    position: relative;
+    left: 100%;
+    top: 5vh;
+    padding: 5vh 0 0 5vw;
+    transform: translatX(-50%);
+}
+
+
+
+.footer{
+    position: absolute;
+    width: 100vw;
+    height: 3vh;
+    background-color: black;
+    color:white;
+
+    p{
+        text-align: right;
+        margin-right: 1vw;
+    }
+}
